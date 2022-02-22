@@ -1,0 +1,19 @@
+body {
+    background-image: linear-gradient(black, rgb(85, 39, 75));
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #5ca6e2;
+    font-size: 60px;
+    font-family: -apple-system;
+    letter-spacing: 7px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
